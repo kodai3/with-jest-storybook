@@ -15,3 +15,5 @@ export const parameters = {
     },
   },
 }
+
+export const decorators = []
