@@ -1,4 +1,4 @@
-import { Links } from 'components/Links'
+import { Links } from '@/components/Links'
 import Head from 'next/head'
 import styles from '../styles/ScssModules.module.scss'
 

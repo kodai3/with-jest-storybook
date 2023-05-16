@@ -1,5 +1,5 @@
-import { Links } from 'components/Links'
-import { MyComponent } from 'components/MyComponent'
+import { Links } from '@/components/Links'
+import { MyComponent } from '@/components/MyComponent'
 import Head from 'next/head'
 
 export default function AbsoluteImports() {
