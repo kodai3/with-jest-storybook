@@ -3,7 +3,12 @@ module.exports = {
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', "@storybook/addon-styling"],
   framework: {
     name: '@storybook/nextjs',
-    options: {},
+    options: {
+      image: {
+        loading: 'eager',
+        unoptimized: true,
+      },
+    },
   },
   staticDirs: ['../public'],
   docs: {
